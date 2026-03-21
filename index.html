@@ -1,165 +1,115 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ToboxTechMX</title>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5687629021691045"
-     crossorigin="anonymous"></script>
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Segoe UI',sans-serif;
-}
+<!-- ===== SECCIÓN PRO MAX ===== -->
+<section style="max-width:1000px;margin:100px auto;padding:30px;background:linear-gradient(145deg,#020617,#0f172a);border-radius:20px;box-shadow:0 0 40px rgba(0,0,0,0.8);">
 
-body{
-    background: radial-gradient(circle at top, #0f172a, #020617);
-    color:white;
-    text-align:center;
-}
+<h2 style="text-align:center;font-size:32px;margin-bottom:20px;background:linear-gradient(90deg,#3b82f6,#22c55e);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">
+🔥 Fire TV Stick Ultimate Guide
+</h2>
 
-.container{
-    padding:60px 20px;
-    max-width:1100px;
-    margin:auto;
-}
+<p style="color:#cbd5f5;">
+Learn how to install the best apps on your Fire TV Stick safely and easily. This guide is designed for beginners and advanced users who want unlimited entertainment.
+</p>
 
-.banner-img{
-    width:220px;
-    margin-bottom:20px;
-    filter: drop-shadow(0 0 20px #3b82f6);
-}
+<!-- BOTONES -->
+<div style="display:flex;justify-content:center;gap:20px;margin:40px 0;flex-wrap:wrap;">
 
-h1{
-    font-size:42px;
-    margin-bottom:10px;
-    background:linear-gradient(90deg,#3b82f6,#60a5fa);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-}
+<a href="revista/index.html" class="button">📲 View Apps</a>
 
-.subtitle{
-    color:#94a3b8;
-    margin-bottom:40px;
-}
-
-.button{
-    display:inline-block;
-    padding:18px 40px;
-    background:#2563eb;
-    color:white;
-    text-decoration:none;
-    border-radius:12px;
-    font-weight:bold;
-    font-size:18px;
-    box-shadow:0 0 20px rgba(37,99,235,0.6);
-    transition:0.3s;
-}
-
-.button:hover{
-    transform:scale(1.05);
-    box-shadow:0 0 40px rgba(59,130,246,1);
-}
-
-/* ===== ANUNCIOS ===== */
-.ad-space{
-    margin:40px 0;
-    padding:20px;
-    background:#111827;
-    border-radius:10px;
-    color:#9ca3af;
-}
-
-/* ===== REDES ===== */
-.redes{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:20px;
-    margin-top:40px;
-}
-
-.card{
-    background:#0f172a;
-    padding:18px 30px;
-    border-radius:12px;
-    box-shadow:0 0 15px rgba(0,0,0,0.5);
-    transition:0.3s;
-}
-
-.card:hover{
-    transform:translateY(-5px);
-    box-shadow:0 0 25px rgba(59,130,246,0.6);
-}
-
-.card a{
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-.footer{
-    margin-top:80px;
-    padding:20px;
-    color:#64748b;
-    font-size:14px;
-}
-</style>
-</head>
-
-<body>
-
-<div class="container">
-
-<img src="banner.png" class="banner-img" alt="ToboxTechMX">
-
-<h1>ToboxTechMX 🚀</h1>
-<p class="subtitle">Revistas digitales, herramientas premium y contenido tecnológico actualizado.</p>
-
-<!-- ===== ANUNCIO SUPERIOR ===== -->
-<div class="ad-space">
-    <!-- PEGA AQUI TU CODIGO DE ANUNCIO SUPERIOR -->
-    Espacio para anuncio superior
-</div>
-
-<a href="revista/index.html" class="button">📘 Ver Revista Digital</a>
-
-<!-- ===== ANUNCIO CENTRAL ===== -->
-<div class="ad-space">
-    <!-- PEGA AQUI TU CODIGO DE ANUNCIO CENTRAL -->
-    Espacio para anuncio intermedio
-</div>
-
-<div class="redes">
-
-<div class="card"><a href="https://t.me/ToboxTechMX
-" target="_blank">📲 Telegram</a></div>
-<div class="card"><a href="https://www.youtube.com/channel/UCWf7qHT9-6VdWojh70Aq0iw/about" target="_blank">🎥 YouTube</a></div>
-<div class="card"><a href="https://www.facebook.com/profile.php?id=61588131877078
-" target="_blank">📘 Facebook</a></div>
-<div class="card"><a href="https://www.instagram.com/toboxtechmx?igsh=bnh2ZGN1bDdnZnU5&utm_source=qr" target="_blank">📸 Instagram</a></div>
-<div class="card"><a href="revista.pdf" target="_blank">⬇ Descargar PDF</a></div>
+<button onclick="openModal()" class="button" style="background:#00c853;">
+🎥 Watch Tutorial
+</button>
 
 </div>
 
-<!-- ===== ANUNCIO INFERIOR ===== -->
-<div class="ad-space">
-    Espacio para anuncio inferior
-</div>
+</section>
 
-<!-- Enlaces legales -->
-<div style="margin-top:60px;">
-<a href="privacidad.html" style="color:#60a5fa;margin:10px;">Política de Privacidad</a>
-<a href="aviso-legal.html" style="color:#60a5fa;margin:10px;">Aviso Legal</a>
-<a href="contacto.html" style="color:#60a5fa;margin:10px;">Contacto</a>
-</div>
+<!-- ===== MODAL VIDEO (TIPO NETFLIX) ===== -->
+<div id="videoModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);justify-content:center;align-items:center;z-index:999;">
 
-<div class="footer">
-© 2026 ToboxTechMX - Todos los derechos reservados.
-</div>
+<div style="width:90%;max-width:800px;position:relative;">
+<span onclick="closeModal()" style="position:absolute;top:-40px;right:0;font-size:30px;color:white;cursor:pointer;">✖</span>
+
+<video width="100%" controls>
+<source src="tutorial.mp4" type="video/mp4">
+</video>
 
 </div>
-</body>
-</html>
+</div>
+
+<!-- ===== CONTADOR DE VISITAS ===== -->
+<div style="text-align:center;margin-top:40px;color:#94a3b8;">
+👀 Visits: <span id="visitCount"></span>
+</div>
+
+<!-- ===== COMENTARIOS GUARDADOS ===== -->
+<section style="max-width:800px;margin:60px auto;padding:25px;background:#020617;border-radius:15px;">
+
+<h2 style="text-align:center;">💬 Comments</h2>
+
+<input id="name3" placeholder="Your name" style="width:100%;padding:12px;margin:10px 0;border-radius:8px;border:none;">
+<textarea id="comment3" placeholder="Write your comment..." style="width:100%;padding:12px;height:100px;border-radius:8px;border:none;"></textarea>
+
+<button onclick="saveComment()" class="button" style="margin-top:10px;">
+Post Comment
+</button>
+
+<div id="commentsContainer" style="margin-top:20px;"></div>
+
+</section>
+
+<!-- ===== SCRIPT PRO ===== -->
+<script>
+
+// 🎥 MODAL VIDEO
+function openModal(){
+    document.getElementById("videoModal").style.display = "flex";
+}
+
+function closeModal(){
+    document.getElementById("videoModal").style.display = "none";
+}
+
+// 👀 CONTADOR VISITAS
+let visits = localStorage.getItem("visits");
+visits = visits ? parseInt(visits) + 1 : 1;
+localStorage.setItem("visits", visits);
+document.getElementById("visitCount").innerText = visits;
+
+// 💬 COMENTARIOS GUARDADOS
+function loadComments(){
+    let comments = JSON.parse(localStorage.getItem("comments")) || [];
+    let container = document.getElementById("commentsContainer");
+    container.innerHTML = "";
+
+    comments.forEach(c => {
+        let div = document.createElement("div");
+        div.style.background = "#111827";
+        div.style.padding = "10px";
+        div.style.marginTop = "10px";
+        div.style.borderRadius = "8px";
+        div.innerHTML = "<strong>" + c.name + "</strong><br>" + c.text;
+        container.appendChild(div);
+    });
+}
+
+function saveComment(){
+    let name = document.getElementById("name3").value;
+    let text = document.getElementById("comment3").value;
+
+    if(name === "" || text === ""){
+        alert("Fill all fields");
+        return;
+    }
+
+    let comments = JSON.parse(localStorage.getItem("comments")) || [];
+    comments.push({name:name, text:text});
+    localStorage.setItem("comments", JSON.stringify(comments));
+
+    document.getElementById("name3").value = "";
+    document.getElementById("comment3").value = "";
+
+    loadComments();
+}
+
+loadComments();
+
+</script>
