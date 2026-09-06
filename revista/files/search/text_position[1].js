@@ -1,1 +1,1 @@
-positionForPages[0] = {"page":1,"positions":[]}
+positionForPages[0]={"page":1,"positions":[]};
